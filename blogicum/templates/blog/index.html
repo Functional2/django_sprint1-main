@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Лента записей{% endblock %}
+{% block content %}
+<div class="container">
+  <h1 class="pb-2 mb-0">Главная страница</h1>
+</div>
+  {% include "includes/posts_list.html" %}
+{% endblock %}
